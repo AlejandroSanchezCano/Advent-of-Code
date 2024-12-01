@@ -25,4 +25,4 @@ counter = collections.Counter(list_l)
 
 # Find similarity score
 scores = [counter[i] * i for i in list_r if i in counter]
-print(f'Similarity score: {sum(score)}')
+print(f'Similarity score: {sum(scores)}')
