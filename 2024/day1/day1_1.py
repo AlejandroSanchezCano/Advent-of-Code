@@ -1,12 +1,12 @@
 '''
---- Day 1: Historian hysteria ---
+--- Day 1.1: Historian hysteria ---
 Process the input file to have the two vertical lists of integers in 
 separate lists, sort them, and calculate the difference between the
 the integers at index i in the two lists => O(nlogn).
 '''
 
 # Read input file
-with open('day1/input.txt') as f:
+with open('input.txt') as f:
     lines = f.readlines()
 
 # Parse input

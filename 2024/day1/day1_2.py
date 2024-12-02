@@ -1,5 +1,5 @@
 '''
---- Day 1: Historian hysteria ---
+--- Day 1.2: Historian hysteria ---
 Process the input file to have the two vertical lists of integers in 
 separate lists. Use the Counter class from the collections module to
 count the number of occurrences of each integer in the left list. Then, 
@@ -9,7 +9,7 @@ a nested loop (O(n^2)) and is more efficient => O(n).
 '''
 
 # Read input file
-with open('day1/input.txt') as f:
+with open('input.txt') as f:
     lines = f.readlines()
 
 # Parse input
